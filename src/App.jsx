@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const SITE_PASSWORD = "love";
+const SITE_PASSWORD = "sama";
 
 function TypingText({ text, speed = 35, className = "" }) {
   const [displayed, setDisplayed] = useState("");
@@ -38,12 +38,12 @@ export default function App() {
 
   const content = useMemo(
     () => ({
-      heroName: "بوز االبطه ❤️",
+      heroName: "sama ❤️",
       heroSub: "العُمر ❤️ روحي ونصي التاني",
       heroText:
         "بحبك قد الدنيا وكل يوم بحبك أكتر من اللي قبله، وإنتي الأمان والفرحة اللي نفسي تفضل معايا طول العمر ❤️",
       meetTitle: "أول مرة اتقابلنا ❤️",
-      meetDate: "6 / 6 / 2023",
+      meetDate: "2025-8-29",
       timerTitle: "بداية عمري معاكي ❤️",
       timerText:
         "بفضلك فعلًا طول ما احنا مع بعض الدنيا بقت أحلى، وكل يوم بيعدي بيأكدلي إنك أجمل حاجة حصلتلي ❤️",
@@ -62,15 +62,15 @@ export default function App() {
         id: 1,
         title: "من أول يوم",
         image: "/1.jpg",
-        date: "6 / 6 / 2023",
-        text: "اول يوم قعدنا معي بعض فيه كان اجمل يوم في حياتي واحسن حاجة حصلتلي طول عمري ❤️✨ 💖",
+        date: "2025-8-29",
+        text: "إنتي الأمان والفرحة اللي نفسي تفضل معايا طول العمر ❤️❤️✨ 💖",
       },
       {
         id: 2,
         title: "روحي",
         image: "/2.jpg",
         date: "ذكرى مميزة",
-        text: "اجمل بوز بطه في الدنيا كلها 😂😍❤️❤️❤️💞",
+        text: "   بحبك قد الدنيا وكل يوم بحبك أكتر من اللي قبله😂😍❤️❤️❤️💞"
       },
       {
         id: 3,
@@ -86,6 +86,13 @@ export default function App() {
         date: "أحلى يوم",
         text: "كل يوم بحسد نفسي ان القمر دا بتاعي انا عشان مفيش جمال كدا بجد 🌚😘❤️   ❤️",
       },
+      {
+        id: 5,
+        title: "كل سنه وانتي عيد",
+        image: "/5.jpg",
+        date: "أحلى يوم",
+        text: "كل يوم بحسد نفسي ان القمر دا بتاعي انا عشان مفيش جمال كدا بجد 🌚😘❤️   ❤️",
+      },
     ],
     []
   );
@@ -94,7 +101,7 @@ export default function App() {
     () => [
       {
         title: "أول مرة اتقابلنا",
-        date: " 6 / 6 / 2023",
+        date: "2025-8-29",
         text: "اليوم اللي بدأت فيه أجمل حكاية بينا.",
       },
       {
@@ -255,7 +262,7 @@ export default function App() {
 
         <div className="password-card glass">
           <div className="password-top-image">
-            <img src="/profile.jpg" alt="حبيبتي" />
+            <img src="/profile.jpg" alt="sama" />
             <div className="password-image-overlay"></div>
           </div>
 
